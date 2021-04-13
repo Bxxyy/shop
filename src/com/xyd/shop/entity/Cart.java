@@ -31,5 +31,4 @@ public class Cart {
     public void setUid(int uid) {
         this.uid = uid;
     }
-
 }
