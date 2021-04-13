@@ -27,6 +27,7 @@ public class DAOUtil {
     private static Connection getConnection(){
         try {
             conn=DriverManager.getConnection(URL,USER,PASSWORD);
+            System.out.println("1");
             return conn;
         }catch (Exception e){
             e.printStackTrace();
