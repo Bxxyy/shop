@@ -11,5 +11,4 @@ public class Address {
     private int phone;
     private String address;
     private int uid;
-    private int age;
 }

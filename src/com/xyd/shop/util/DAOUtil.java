@@ -12,7 +12,7 @@ import java.util.Map;
 public class DAOUtil {
     private static final String CLASSNAME = "com.mysql.jdbc.Driver";
     private static final String URL = "jdbc:mysql://localhost:3306/shop?characterEncoding=utf-8";
-    private static final String USER = "B";
+    private static final String USER = "ROOT";
     private static final String PASSWORD = "1234";
     private static Connection conn=null;
     private static PreparedStatement ps=null;
